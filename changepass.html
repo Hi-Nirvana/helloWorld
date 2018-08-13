@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Services</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css3/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css3/main.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Passion+One:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+</head>
+<body>
+<div class="bg">
+<div class="bg-2">
+
+  <!--==============================header=================================-->
+    <header>
+               <h1><a href="index.html"><span class="clr-1" style=" font-size:45px">我投网</span></a></h1><br><br>
+               <p align="right">HELLO,<span>刘宁</span></p>
+        <nav>  
+            <ul class="menu">
+                <li><a href="index.html">主页</a></li>
+                <li><a href="login.html">注册/登录</a></li>
+                <li class="current"><a href="services.html">用户中心</a></li>
+                <li><a href="products.html">创建投票</a></li>
+                <li><a href="contacts.html">联系我们</a></li>
+            </ul>
+      </nav>
+    </header>   
+  <div class="topbar-wrap white">
+    <!--<div class="topbar-inner clearfix">-->
+        <div class="topbar-logo-wrap clearfix">
+            <h1 class="topbar-logo none"><a href="index.html" class="navbar-brand">管理员中心</a></h1>
+        </div>
+  </div>
+</div>
+    <div class="sidebar-wrap">
+        <div class="sidebar-title">
+ 
+        </div>
+        <div class="sidebar-content">
+            <ul class="sidebar-list">
+ 
+                    <ul class="sub-menu">
+                        
+                        <li><a href="personal.php">●   我的投票</a></li>
+                        <li><a href="changepass.html">●   修改密码</a></li>
+                    </ul>
+                </li>
+               
+            </ul>
+        </div>
+    </div>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><a href="index.html" color="#white">个人中心</a><span class="crumb-step">&gt;</span><span class="crumb-name">修改密码</span></div>
+        </div><br><br><br>
+        <form action="changepass.php" method="post">
+       <span class="button-2" style="alignment-adjust: middle; text-align: center;">原密码:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  class="text-1" type="password" name="ypass" /><br><br><br><br>
+        <span class="button-2">新密码:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="text-1" type="password" name="newpass1" /><br><br><br><br>
+        <span class="button-2">确认新密码:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="text-1" type="password" name="newpass2" /><br><br><br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" class="button-1" value="确认修改"/>
+       </form>
+</div>
+<!--==============================footer=================================-->
+  <footer>
+      <p><strong>© 2016  Liuning</strong></p>
+  </footer>	       
+</body>
+</html>
